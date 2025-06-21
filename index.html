@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Ram Samujh Singh | Full Stack Developer Portfolio" />
+  <meta name="author" content="Ram Samujh Singh" />
+  <title>Ram Samujh Singh | Portfolio</title>
+<!-- Add this in <head> before your CSS -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+  <!-- External Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<section class="hero-glow">
+  <div class="hero-left">
+    <h1>Hello, It's Me</h1>
+    <h2>Ram Samujh Singh</h2>
+    <h3>And I'm a</h3>
+    <p>
+      Full Stack Developer passionate about clean UI, scalable backend systems,<br />
+      and solving real-world problems using code.
+    </p>
+  </div>
+  <div class="hero-right">
+    <div class="glow-ring">
+      <img src="assets/ram....jpg" alt="Ram Samujh Singh" />
+    </div>
+  </div>
+</section>
+
+
+<!-- Floating UI Buttons -->
+<button class="theme-toggle-btn draggable" id="themeBtn" title="Toggle Theme" style="position: fixed; top: 10px; right: 60px; z-index: 1000;">🌓</button>
+<button class="music-toggle-btn draggable" id="musicBtn" title="Toggle Music" style="position: fixed; top: 10px; right: 10px; z-index: 1000;">🔊</button>
+
+<!-- Background Music -->
+<audio id="bg-music" loop>
+ 
+  <source src="assets/click-buttons-ui-menu-sounds-effects-button-6-203600.mp3" type="audio/mpeg">
+</audio>
+
+</audio>
+
+<header>
+  <div class="sidebar">
+    <div class="profile-glow">
+  <div class="glow-circle">
+    <img src="assets/ram....jpg" alt="Ram Samujh Singh" />
+  </div>
+  <h1>Ram Samujh Singh</h1>
+  <p>B.Tech IT | Full Stack Developer</p>
+</div>
+
+    <nav class="sidebar-nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section id="about" data-aos="fade-up">
+  <section id="about" class="glow-card">
+  <h2>About Me</h2>
+  <p>B.Tech student in Information Technology at GL Bajaj. Passionate full-stack developer experienced in building responsive web applications with React.js, Node.js, and SQL. Active in coding communities and consistently sharpening DSA skills.</p>
+</section>
+</section>
+<section id="skills" data-aos="fade-up">
+  
+<section id="skills" class="glow-card">
+  <h2>Skills & Tools</h2>
+  <ul>
+    <li>C++</li><li>JavaScript</li><li>HTML & CSS</li><li>React.js</li><li>Node.js</li>
+    <li>SQL</li><li>Express.js</li><li>Next.js</li><li>MongoDB</li><li>Git & GitHub</li>
+  </ul>
+</section>
+</section>
+<section id="projects" data-aos="fade-up">
+  
+<section id="projects" class="glow-card">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>PortfolioX</h3>
+    <p>Responsive personal website using HTML, CSS, and JavaScript; improved recruiter engagement by 40%.</p>
+  </div>
+  <div class="project">
+    <h3>TrackIt - Expense Tracker</h3>
+    <p>
+    A full-stack expense tracking application built with React.js, Node.js, Express, and MongoDB. Features include user authentication using JWT, secure password reset via email, and dynamic dashboards with filtering and chart visualizations. Deployed on Vercel (frontend) and Render (backend).
+  </p>
+    <a href="https://expense-tracker-frontend-neon-eight.vercel.app/" target="_blank">Live Demo</a>
+  </div>
+  <div class="project">
+    <h3>SHL Assessment Recommender</h3>
+    <p>  Semantic search-based SHL Assessment Recommendation System using NLP and GenAI to match job queries with relevant assessments.
+      Built with FastAPI and Streamlit, using cosine similarity and evaluation metrics like Recall@3 and MAP@3. Includes REST API and frontend demo</p>
+    <a href="https://appapppy-5sra3zs3mktpvzbg9ca7cv.streamlit.app/" target="_blank">Live Demo</a>
+  </div>
+  <div class="project">
+   <p>
+      EduGlow is a full-stack learning platform that allows users to register, enroll in courses, track progress, and make secure payments via Razorpay.
+    </p>
+    
+      Backend: Node.js, Express, MongoDB with JWT, bcrypt, OTP verification, Nodemailer emails, Cloudinary for file uploads.
+      Frontend: React + Vite with Framer Motion, toast notifications, analytics charts, and responsive UI.
+      Deployed via Vercel; structured using scalable MVC architecture.
+    
+     <p><a href="https://edu-glow-roan.vercel.app/" target="_blank">Live Demo</a></p>
+</section>
+</section>
+<section id="experience" data-aos="fade-up">
+  <section id="experience" class="glow-card">
+  <h2>Experience</h2>
+  <p><strong>Virtual Internship – IR4.0 (Edunet Foundation)</strong><br>Learned smart automation and IoT system control concepts.</p>
+  <p><strong>Data Analytics & Visualization (Forage)</strong><br>Simulated job environment with real-world data insights and visualizations.</p>
+</section>
+</section>
+<section id="education" data-aos="fade-up">
+  <section id="education" class="glow-card">
+
+  <h2>Education</h2>
+  <p><strong>B.Tech in IT</strong> - GL Bajaj Institute of Technology (2022–2026)<br>CGPA: 8.26/10</p>
+</section>
+</section>
+<section id="contact" data-aos="fade-up">
+  <section id="contact" class="glow-card">
+  <h2>Contact</h2>
+  <p>📧 <a href="mailto:ramsamujhsingh70@gmail.com">ramsamujhsingh70@gmail.com</a></p>
+  <p>📞 +91 99841 18888</p>
+  <div class="social-links">
+    <a href="https://linkedin.com/in/ram-samujh-singh-170455214" target="_blank"><img src="assets/linkedin.jpg" alt="LinkedIn" />LinkedIn</a>
+    <a href="https://github.com/ramsamujhsingh70" target="_blank"><img src="assets/github.png" alt="GitHub" />GitHub</a>
+    <a href="https://leetcode.com/ramsamujhsingh/" target="_blank"><img src="assets/leetcode.jpg" alt="LeetCode" />LeetCode</a>
+    <a href="assets/RAM SAMUJH SINGH.pdf" class="resume-btn" download>📄 Download Resume</a>
+  </div>
+</section>
+</section>
+
+<section id="query" class="query-section" data-aos="fade-up">
+  <section id="query" class="glow-card">
+  <h2>Submit a Query</h2>
+  <form action="http://localhost:5000/query" method="POST" class="query-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Submit Query</button>
+  </form>
+</section>
+</section>
+<footer><p>© 2025 Ram Samujh Singh</p></footer>
+
+<!-- JS Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+
+  const themeBtn = document.getElementById('themeBtn');
+  const musicBtn = document.getElementById('musicBtn');
+  const audio = document.getElementById('bg-music');
+
+  function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+    localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+  }
+
+  function toggleMusic() {
+    if (audio.paused) {
+      audio.play();
+      musicBtn.textContent = '🔊';
+    } else {
+      audio.pause();
+      musicBtn.textContent = '🔇';
+    }
+  }
+
+  function makeDraggable(button) {
+    button.onmousedown = function (e) {
+      const shiftX = e.clientX - button.getBoundingClientRect().left;
+      const shiftY = e.clientY - button.getBoundingClientRect().top;
+      function moveAt(pageX, pageY) {
+        button.style.left = pageX - shiftX + 'px';
+        button.style.top = pageY - shiftY + 'px';
+      }
+      function onMouseMove(e) {
+        moveAt(e.pageX, e.pageY);
+      }
+      document.addEventListener('mousemove', onMouseMove);
+      button.onmouseup = function () {
+        document.removeEventListener('mousemove', onMouseMove);
+        button.onmouseup = null;
+      };
+    };
+    button.ondragstart = () => false;
+  }
+
+  makeDraggable(themeBtn);
+  makeDraggable(musicBtn);
+
+  themeBtn.addEventListener('click', toggleTheme);
+  musicBtn.addEventListener('click', toggleMusic);
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const saved = localStorage.getItem('theme');
+    const hour = new Date().getHours();
+    if (saved === 'dark' || (!saved && (hour >= 19 || hour <= 6))) {
+      document.body.classList.add('dark-mode');
+    }
+  });
+</script>
+
+</body>
+</html>
+
